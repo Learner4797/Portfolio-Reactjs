@@ -1,0 +1,92 @@
+
+section{
+    padding: 6rem 0;
+}
+section.about .about-me-img{
+    height: 450px;
+    border-radius: 20px;
+}
+section .about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+section.about h1 span{
+    color: var(--primary);
+}
+section .about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+section.about p{
+    font-family: 'Lato', sans-serif;
+    color: var(--ternary);
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+section.about .social{
+    display: flex;
+}
+section.about .social a{
+    background: var(--light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+    transition: all .3s ease;
+}
+section.about .social a:hover{
+    background: var(--primary);
+}
+section.about .social a img{
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
+
+.section-heading{
+    color: var(--dark);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+}
+.section-heading span{
+    color: var(--primary);
+}
+.section-heading + p{
+    color: var(--ternary);
+    font-family: 'Lato',sans-serif;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+@media (max-width:1024px){
+   
+    section.about .about-me-img{
+        width: 330px;
+        height: 330px;
+    }
+}
+@media(max-width:576px){
+    
+    section{
+        padding: 3rem 0;
+    }
+    .about .right{
+        text-align: center;
+    }
+    section.about .about-me-img{
+        height: 200px;
+        width: 200px;
+    }
+    section.about p{
+        font-size: 1.29rem;
+        line-height: 1.6;
+    }
+    section.about .social{
+        justify-content: center;
+    }
+}

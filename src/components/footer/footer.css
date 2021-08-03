@@ -1,0 +1,44 @@
+
+footer{
+    background: var(--dark);
+    text-align: center;
+    padding: 3rem 0;
+}
+footer .footer-socials a{
+    margin-right: 1rem;
+    
+}
+footer .copyright{
+    color: var(--ternary);
+}
+footer .footer-socials{
+    margin-bottom: 3rem;
+    margin-right: -1rem;
+}
+.textfoot{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.gitpic{
+    width: 45px;
+}
+
+@media (max-width:1024px){
+    
+    footer{
+        padding: 3rem 0;
+    }
+    footer .footer-socials{
+        margin-right: 0;
+    }
+}
+@media(max-width:576px){
+    
+    footer{
+        padding: 2rem 0;
+    }
+    footer .copyright{
+        font-size: .6rem;
+    }
+}

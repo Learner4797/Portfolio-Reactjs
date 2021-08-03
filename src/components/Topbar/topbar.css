@@ -1,0 +1,105 @@
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+@media(min-width:576px){
+    .container{
+        max-width: 548px;
+    }
+}
+@media(min-width:768px){
+    .container{
+        max-width: 720px;
+    }
+}
+@media(min-width:992px){
+    .container{
+        max-width: 960px;
+    }
+}
+@media(min-width:1200px){
+    .container{
+        max-width: 1152px;
+    }
+}
+  #navbar__logo {
+    background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    background-size: 100%;
+    font-family: 'Chela One', cursive;
+    font-weight: 600;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  
+
+nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+nav .left a:hover{
+    /* color:var(--primary); */
+    background: #000428;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-size: 100%;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+nav{
+    padding: 2rem 0;
+}
+nav .branding{
+    margin-right: 3 rem;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+  }
+  #navbar::before{
+    content:"";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  @media (max-width:1024px){
+    
+    .btn{
+        margin-bottom: 30px;
+        width: 120px;
+        text-align: center;
+        padding: 1rem 1rem;
+    }
+    
+}
+@media(max-width:576px){
+    
+    .btn{
+        width: 90px;
+        height: 40px;
+        padding: .5rem .5rem;
+        margin-top: -10px;
+    }
+}

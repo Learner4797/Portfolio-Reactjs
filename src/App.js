@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import "./app.css";
+import Certifications from "./components/Certifications/Certifications";
+import About from "./components/About/About";
+import Hero from "./components/Hero/Hero";
+import Skills from "./components/skills/Skills";
+import Topbar from "./components/Topbar/Topbar";
+import Footer from "./components/footer/Footer";
+import Projects from "./components/Projects/Projects";
+import "./utils.css";
+import MobNnav from "./components/mob-nav/MobNnav";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="site-main-wrapper">
+      <header>
+      <video src='./vedio/Forest - 40034.mp4' autoPlay loop muted />
+        <div className="container">
+            <Topbar/>
+            <MobNnav/>
+            <Hero/>
+        </div>
       </header>
+      <About/>
+      <Skills/>
+      <Certifications/>
+      <Projects/>
+      <Footer/>
     </div>
   );
 }

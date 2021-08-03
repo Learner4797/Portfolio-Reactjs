@@ -1,0 +1,94 @@
+section{
+    padding: 6rem 0;
+}
+.section-heading{
+    color: var(--dark);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+}
+.section-heading span{
+    color: var(--primary);
+}
+.section-heading + p{
+    color: var(--ternary);
+    font-family: 'Lato',sans-serif;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+section.skills{
+    background: var(--dark);
+}
+section.skills .card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2rem;
+    grid-row-gap: 6rem;
+}
+section.skills .card-wrapper .card{
+    background: var(--pure);
+    padding: 2rem 2rem;
+    position: relative;
+    padding-top: 4rem;
+    text-align: center;
+    transition: all .3s ease;
+    border-radius: 15px;
+}
+section.skills .card-wrapper .card img{
+    position: absolute;
+    top: -3.5rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+section.skills .card-wrapper .card h2{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+section.skills .card-wrapper .card p{
+    font-family: 'Lato',sans-serif;
+    color: var(--ternary);
+    line-height: 1.3rem;
+}
+section.skills .card-wrapper .card:hover{
+    /* background: var(--dark2); */
+    background: #30E8BF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF8235, #30E8BF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF8235, #30E8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+section.skills .card-wrapper .card:hover h2 ,section.skills .card-wrapper .card:hover p{
+    color: var(--pure);
+}
+@media (max-width:1024px){
+    
+    .container{
+        padding: 0 8px;
+    }
+    section.skills .card-wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+    section.skills .card-wrapper .card img{
+        width: 84px;
+        height: 90px;
+    }
+    
+}
+@media(max-width:576px){
+    
+    section.skills .card-wrapper .card img{
+        width: 50px;
+        height: 58px;
+        top: -2.5rem;
+    }
+    section.skills .card-wrapper .card{
+        padding: 1rem 1rem;
+        padding-top: 1rem;
+    }
+    section.skills .card-wrapper{
+        grid-row-gap: 4rem;
+    }
+    section.skills .card-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
