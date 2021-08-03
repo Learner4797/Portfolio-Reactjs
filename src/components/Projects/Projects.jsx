@@ -18,6 +18,13 @@ export default function Projects() {
                     </div>
                     <div className="card">
                         <div className="overlay">
+                            <span>Html,css</span>
+                            <a href="https://jovial-northcutt-c5a458.netlify.app/" target="_blank-page">Portfolio</a>
+                        </div>
+                        <img src="./images/portfolio.png" alt=""/>
+                    </div>
+                    <div className="card">
+                        <div className="overlay">
                             <span>Java and MySQL</span>
                             <a href="https://github.com/Learner4797/StudentManagementSystem.git">Student Management
                                 System</a>
