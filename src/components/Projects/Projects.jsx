@@ -19,9 +19,9 @@ export default function Projects() {
                     <div className="card">
                         <div className="overlay">
                             <span>Html,css</span>
-                            <a href="https://jovial-northcutt-c5a458.netlify.app/" target="_blank-page">Portfolio</a>
+                            <a href="https://practical-fermi-d0b5f4.netlify.app/" target="_blank-page">Landing page</a>
                         </div>
-                        <img src="./images/portfolio.png" alt=""/>
+                        <img src="./images/Screenshot from 2021-08-03 17-45-55.png" alt=""/>
                     </div>
                     <div className="card">
                         <div className="overlay">

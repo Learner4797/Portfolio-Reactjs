@@ -12,9 +12,9 @@
     z-index: -1;
   }
   .menu{
-      position: relative;
-      top: 20px;
-      left: 20px;
+      position: absolute;
+      top: 10px;
+      right: -20px;
   }
   .menu .material-icons{
     font-size: 40px;
