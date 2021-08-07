@@ -12,6 +12,7 @@ import MobNnav from "./components/mob-nav/MobNnav";
 
 function App() {
   return (
+    <main>
     <div className="site-main-wrapper">
       <header>
       <video src='./vedio/Forest - 40034.mp4' autoPlay loop muted />
@@ -27,6 +28,7 @@ function App() {
       <Projects/>
       <Footer/>
     </div>
+    </main>
   );
 }
 
