@@ -1,5 +1,6 @@
 import React from 'react';
 import "./topbar.css";
+import {Link} from "react-router-dom";
 
 export default function Topbar() {
     return (
@@ -17,7 +18,7 @@ export default function Topbar() {
                         </div>
                     </div>
                     <div className="right">
-                        <button className="btn btn-primary rightbtn" id="#connect">Github</button>
+                        <Link to="/github"><button className="btn btn-primary rightbtn" id="#connect">Github</button></Link>
                         
                     </div>
                 </nav>
